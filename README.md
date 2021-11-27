@@ -1,32 +1,13 @@
-## Important Notice
-As a lot of you may now, the development of discord.py has ended. Discord will be pushing breaking changes to their API in the future, so it would be unwise to stick with a library that is no longer being maintained. With that said, a lot of developers are searching for alternatives to replace discord.py. There are plenty of forks out there, but from what I've seen a majority of developers are migrating over to [pycord](https://github.com/Pycord-Development/pycord). I've tested pycord with this library and it works well. Pycord is the Discord library I have chosen to continue development of this library. Pycord has a release date of January 7, 2022. After further testing (most likely a few days after), discordLevelingSystem 1.3 will be released to PyPI.
+## Notice
+This discord.py branch will continue to be updated (if any updates are needed) until pycord 2.0 is officially released. Pycord has a release date of January 7, 2022. Once released, this branch will not be removed but it will no longer be maintained.
 
-What happens to discordLevelingSystem on January 7, 2022?
-* Support for discord.py will end
-* A separate branch will be made for discord.py (aka versions <=1.0.2) so users still have access to the old code if they wish to use it; although it will not be maintained
-* This library will be solely dependant on pycord
-
-The current GitHub version (v1.0.3) still supports discord.py. It's not until the official release of pycord where major code changes (if any) will take place. If you've already switched to pycord, v1.0.3 should work because I've already done some testing on my end.
-
+You can install the the discord.py supported version by doing the following:
+```
+$ pip install git+https://github.com/Defxult/discordLevelingSystem@discord.py-support
+```
 ---
 
 A library to implement a leveling system into a discord bot. One of the most popular discord bots out there is MEE6 and it's leveling system. This library provides ways to easily implement one for yourself. It uses SQLite (aiosqlite) to locally query things such as their XP, rank, and level. Various amounts of other methods and classes are also provided so you can access or remove contents from the database file.
-
-## GitHub Updates vs PyPI Updates
-The GitHub version of this library will always have the latest changes, fixes, and additions before the [PyPI](https://pypi.org/project/discordLevelingSystem/) version. You can install the GitHub version by doing:
-```
-$ pip install git+https://github.com/Defxult/discordLevelingSystem.git
-```
-You must have [Git](https://git-scm.com/) installed in order to do this. With that said, the current README.md documentation represents the GitHub version of this library. If you are using the PyPI version of this library, it is suggested to read the README.md that matches your PyPI version [here](https://github.com/Defxult/discordLevelingSystem/releases) because documentation may have changed.
-
-* `GitHub: v1.0.3`
-* `PyPI: v1.0.2`
-
-## How to install
-```
-$ pip install discordLevelingSystem
-```
-
 
 ---
 ## Showcase
