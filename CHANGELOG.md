@@ -1,4 +1,4 @@
-## v1.0.3 » Future Release
+## v1.0.3
 #### New Features
 * Added more `typing.Optional` for parameters. Implemented the use of `typing.ClassVar` and `collections.abc.Sequence`. A handful of parameters that specified a `List[x]` never really *needed* to be a list. All parameters that specified a `List[x]` has been changed to `Sequence[x]`, but parameters that still require a list are still type hinted as `List[x]`
 * Added the ability to get the total amount of XP needed for a level
