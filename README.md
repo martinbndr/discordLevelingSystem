@@ -1,5 +1,5 @@
 ## Notice
-This discord.py branch will continue to be updated (if any updates are needed) until pycord 2.0 is officially released. Pycord has a release date of January 7, 2022. Once released, this branch will not be removed but it will no longer be maintained.
+This discord.py branch will continue to be updated (if any updates are needed) until pycord 2.0 is officially released. Pycord has a release date of January 28, 2022. Once released, this branch will not be removed but it will no longer be maintained.
 
 You can install the discord.py supported version by doing the following:
 ```
