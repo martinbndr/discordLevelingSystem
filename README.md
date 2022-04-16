@@ -1,27 +1,14 @@
 A library to implement a leveling system into a discord bot. One of the most popular discord bots out there is MEE6 and it's leveling system. This library provides ways to easily implement one for yourself. It uses SQLite (aiosqlite) to locally query things such as their XP, rank, and level. Various amounts of other methods and classes are also provided so you can access or remove contents from the database file.
 
-## GitHub Updates vs PyPI Updates
-The GitHub version of this library will always have the latest changes, fixes, and additions before the [PyPI](https://pypi.org/project/discordLevelingSystem/) version. You can install the GitHub version by doing:
-  ```
-  $ pip install git+https://github.com/Defxult/discordLevelingSystem
-  ```
-  You must have [Git](https://git-scm.com/) installed in order to do this. With that said the current README.md documentation represents the GitHub version of this library. If you are using the PyPI version of this library, it is suggested to read the README.md that matches your PyPI version [here](https://github.com/Defxult/discordLevelingSystem/releases) because documentation may have changed.
-
-* `GitHub: v1.1.0`
-* `PyPI: v1.1.0`
-
----
-## How to install
-```
-$ pip install discordLevelingSystem
-```
-
 ## Notice
-With the discontinuation of discord.py, this library is now dependent on [Pycord](https://github.com/Pycord-Development/pycord). Pycord has been released and is currently in beta. Until it is out of beta, pip installing this library will not automatically install Pycord. When it comes to installing Pycord, you have a few options:
+This branch is dependent on Pycord and will permanently stay at `v1.1.0`. This branch will no longer be updated and is only here so users who still use Pycord still have access to this library. It should be noted that this branch was last tested on the beta version of Pycord 2.0.
 
+## How to Install
 * Option 1 - Install their most recent PyPI 2.0 version [here](https://pypi.org/project/py-cord/#history)
 * Option 2 - Install their development version of the library following their [instructions](https://github.com/Pycord-Development/pycord#installing)
----
+ ```
+ $ pip install git+https://github.com/Defxult/discordLevelingSystem@pycord-support
+ ```
 
 ## Showcase
 ![showcase](https://cdn.discordapp.com/attachments/655186216060321816/835010159092039680/leveling_showcase.gif)
