@@ -1,5 +1,5 @@
 ## Notice
-This branch will no longer be updated. It is only here so users who still use discord.py (`v1.7.3`) have access to this library. You can install the discord.py supported version by doing the following:
+This branch will no longer be updated. It is only here so users who still use discord.py (`v1.4.0` - `v1.7.3`) have access to this library. You can install the support version by doing the following:
 ```
 $ pip install git+https://github.com/Defxult/discordLevelingSystem@discord.py-legacy-support
 ```
